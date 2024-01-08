@@ -1,0 +1,91 @@
+body{
+    background-color: whitesmoke;
+    font-family: sans-serif;
+}
+/*Presentation info (border, background) for information displayed on a page*/
+.main {
+    margin-left: 200px;
+}
+
+.main h1{
+    color: black;
+}
+
+.main .indent {
+    margin: 0em 0em 0em 3em;
+}
+
+ul {
+    margin: 0;
+    padding: 0em 0em 0em 1em;
+    margin: 0em 0em 0em 3em;
+    list-style-type: disc;
+    list-style-position: outside;
+    list-style-image: none;
+}
+
+
+.intro {
+    text-align: center;
+
+    border-style: solid;
+    border-color: grey;
+    border-width: 10px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+
+.intro-h { /* intro tag used to describe info on page*/
+    text-align: center;
+    color: black;
+    font-size: 28px;
+    
+}
+
+.sidenav {
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top : 0;
+    left: 0;
+    background-color: darkgray;
+    overflow-x: hidden;
+    border-style: solid;
+    border-color: #3f3f3f;
+    border-width: 3px 3px 0px 3px;
+}
+
+.sidenav .group {
+    border-style: solid;
+    border-color: #3f3f3f;
+    border-width: 0px 0px 3px 0px;
+}
+
+.sidenav h1 {
+    padding: 1px 8px 3px 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: block;
+}
+
+.sidenav a {
+    padding: 1px 8px 3px 24px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: black;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: gray;
+    text-decoration-color: grey;
+}
+
+@media screen and (max-heigt : 450px){
+    .sidenav a {font-size: 12px;}
+    .sidenav h1 {font-size: 16px;}
+}
