@@ -1,10 +1,28 @@
+:root {
+    --sidebar-width: 200px;
+    --sidebar-border: 3px
+}
+
+html {
+    height: 100%;
+}
+
 body{
-    background-color: whitesmoke;
+    min-height: 100%;
+    background-image: linear-gradient(to right , rgb(23, 44, 163), rgb(25, 93, 194), rgb(12, 161, 149));
+    background-attachment: fixed;
     font-family: sans-serif;
 }
 /*Presentation info (border, background) for information displayed on a page*/
 .main {
-    margin-left: 200px;
+    margin-left: calc(var(--sidebar-width) + 20px);
+    margin-top: 20px;
+    max-width: 1440px;
+    
+    height: 100%;
+
+    background-color: #f1f1f1;
+    padding: 20px;
 }
 
 .main h1{
@@ -12,7 +30,11 @@ body{
 }
 
 .main .indent {
-    margin: 0em 0em 0em 3em;
+    margin-left: 3em;
+}
+
+.main .info {
+    font-size: large;
 }
 
 ul {
@@ -26,53 +48,62 @@ ul {
 
 
 .intro {
-    text-align: center;
-
-    border-style: solid;
-    border-color: grey;
-    border-width: 10px;
-    border-radius: 20px;
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.055);
 }
 
-.intro-h { /* intro tag used to describe info on page*/
-    text-align: center;
+.intro .text {
+    text-align: left;
+    max-width: 50%;
+    padding-left: 4em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-right: 1em;
+}
+
+.intro .h { /* intro tag used to describe info on page*/
+    text-align: left;
     color: black;
-    font-size: 28px;
+    font-size: 40px;
     
 }
 
 .sidenav {
     width: 200px;
     position: fixed;
+    height: 100%;
     z-index: 1;
     top : 0;
     left: 0;
-    background-color: darkgray;
+    
+    background-color: #FFFFFFFF;
+    
     overflow-x: hidden;
+    
     border-style: solid;
     border-color: #3f3f3f;
-    border-width: 3px 3px 0px 3px;
+    border-width: var(--sidebar-border) var(--sidebar-border) 0px var(--sidebar-border);
 }
 
 .sidenav .group {
     border-style: solid;
     border-color: #3f3f3f;
-    border-width: 0px 0px 3px 0px;
+    border-width: 0px 0px var(--sidebar-border) 0px;
 }
 
 .sidenav h1 {
-    padding: 1px 8px 3px 10px;
+    padding: 1px 8px 3px 8px;
     text-decoration: none;
     color: black;
     font-size: 20px;
     display: block;
+    text-align: center;
 }
 
 .sidenav a {
-    padding: 1px 8px 3px 24px;
+    padding: 1px 8px 7px 8px;
     text-decoration: none;
-    font-size: 16px;
+    text-align: left;
+    font-size: 18px;
     color: black;
     text-decoration-line: underline;
     text-decoration-style: solid;
