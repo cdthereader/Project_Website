@@ -1,6 +1,8 @@
 :root {
+    
     --sidebar-width: 200px;
-    --sidebar-border: 3px
+    --sidebar-border: 3px;
+    --main-margin: 20px
 }
 
 html {
@@ -13,12 +15,16 @@ body{
     background-attachment: fixed;
     font-family: sans-serif;
 }
+
+
 /*Presentation info (border, background) for information displayed on a page*/
 .main {
-    margin-left: calc(var(--sidebar-width) + 20px);
-    margin-top: 20px;
-    max-width: 1440px;
     
+    margin-top: var(--main-margin);
+    margin-right: var(--main-margin);
+    margin-bottom: var(--main-margin); 
+    margin-left: calc(var(--sidebar-width) + var(--main-margin));
+
     height: 100%;
 
     background-color: #f1f1f1;
@@ -49,6 +55,14 @@ ul {
 
 .intro {
     background-color: rgba(245, 245, 245, 0.055);
+    display: flex;
+    flex-direction: row;
+    justify-self: right;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: auto;
+    align-items: center;
+    
 }
 
 .intro .text {
@@ -57,15 +71,27 @@ ul {
     padding-left: 4em;
     padding-top: 2em;
     padding-bottom: 2em;
-    padding-right: 1em;
+    padding-right: 4em;
 }
 
-.intro .h { /* intro tag used to describe info on page*/
-    text-align: left;
+
+.intro .text .h { /* intro tag used to describe info on page*/
     color: black;
-    font-size: 40px;
-    
+    font-size: 40px;    
 }
+
+.intro .text p {
+    color: #3f3f3f;
+    font-size: 25px;
+}
+
+.intro .image img {
+    max-width: 500px;
+    max-height: fit-content;
+    padding: 20px;
+    width: fit-content;
+}
+
 
 .sidenav {
     width: 200px;
@@ -100,7 +126,7 @@ ul {
 }
 
 .sidenav a {
-    padding: 1px 8px 7px 8px;
+    padding: 1px 18px 7px 18px;
     text-decoration: none;
     text-align: left;
     font-size: 18px;
