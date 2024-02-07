@@ -1,0 +1,35 @@
+.jobs {
+    overflow-y: auto;
+}
+
+.experience {
+    padding: 40px;
+    width: 100%;
+}
+
+.experience .experience-info{
+    margin: 1em 0em;
+    margin-right: 4em;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+    flex-wrap: nowrap;
+    overflow-y: auto;
+}
+
+.experience .experience-info .role {
+    justify-self: left;
+
+}
+
+.experience .experience-info .company {
+    justify-self: left;
+    
+}
+
+.experience .experience-info .dates {
+    justify-self: right;
+    
+}

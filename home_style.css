@@ -55,8 +55,6 @@ ul {
 
 .intro {
     margin: 20px auto;
-
-    background-color: rgba(245, 245, 245, 0.055);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
