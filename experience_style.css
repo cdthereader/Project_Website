@@ -1,35 +1,52 @@
 .jobs {
     overflow-y: auto;
+    font-size: xx-large;
+}
+
+.jobs .job {
+    overflow-y: auto;
 }
 
 .experience {
-    padding: 40px;
+    padding: 20px 40px;
     width: 100%;
 }
 
 .experience .experience-info{
-    margin: 1em 0em;
-    margin-right: 4em;
-    gap: 30px;
+    margin: 0em 4em 1em 0em;
+    gap: 2em;
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    align-items: baseline;
+    
+    flex-wrap: wrap;
 
-    flex-wrap: nowrap;
-    overflow-y: auto;
+    font-weight: normal;
 }
 
 .experience .experience-info .role {
-    justify-self: left;
-
+    min-width: none;
 }
 
 .experience .experience-info .company {
     justify-self: left;
+
+    font-weight: normal;
     
 }
 
 .experience .experience-info .dates {
-    justify-self: right;
+    color: black;
+    font-weight: normal;
+}
+
+.experience .job-duties {
+    font-weight: normal;
+    overflow-y: auto;
     
+}
+
+.experience .job-duties li {
+    padding: .5em 1em;
+    text-wrap: nowrap;
 }
