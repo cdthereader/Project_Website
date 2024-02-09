@@ -30,14 +30,10 @@
 
 .experience .experience-info .company {
     justify-self: left;
-
-    font-weight: normal;
-    
 }
 
 .experience .experience-info .dates {
     color: black;
-    font-weight: normal;
 }
 
 .experience .job-duties {
