@@ -43,23 +43,18 @@ body{
     font-size: large;
 }
 
-ul {
+ul.default {
     margin: 0;
     padding-left: 1em;
     margin-left: 3em;
     list-style-position: outside;
     list-style-type: disc;
     list-style-image: none;
+    overflow-x: auto;
 }
-
-li {
-    display: list-item;
-    overflow: auto;
-}
-
 
 .intro {
-    margin: 20px auto;
+    margin: 4em 0em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
