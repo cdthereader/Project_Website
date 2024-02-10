@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="446.81647"
+   height="446.81647"
+   viewBox="0 0 446.81647 446.81647"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient3">
+      <stop
+         style="stop-color:#4d4d4d;stop-opacity:1;"
+         offset="0.89518899"
+         id="stop3" />
+      <stop
+         style="stop-color:#4d4d4d;stop-opacity:0.53720933;"
+         offset="1"
+         id="stop4" />
+    </linearGradient>
+    <rect
+       x="129.73186"
+       y="128.47232"
+       width="328.73801"
+       height="60.457573"
+       id="rect13" />
+    <rect
+       x="129.73186"
+       y="128.47232"
+       width="244.02518"
+       height="122.77504"
+       id="rect15" />
+    <marker
+       markerWidth="8.7074909"
+       markerHeight="17.934999"
+       refX="4.3537455"
+       refY="0.96700001"
+       orient="auto-start-reverse"
+       id="marker61"
+       viewBox="0 0 8.707491 17.935"
+       preserveAspectRatio="xMidYMid">
+      <path
+         id="Trace_End"
+         style="fill:#cccccc;fill-opacity:1;stroke-width:0.447568;stroke-dasharray:none"
+         d="M 4.353723,17.935 A 4.3537372,4.3537372 0 0 1 0,13.58128 4.3537372,4.3537372 0 0 1 0.687431,11.23348 V 0 h 7.33261 v 11.23348 a 4.3537372,4.3537372 0 0 1 0.68745,2.3478 4.3537372,4.3537372 0 0 1 -4.353768,4.35372 z m 0.0557,-2.063221 c 0.19812,-0.0053 0.39493,-0.03022 0.58631,-0.08854 0.98002,-0.269551 1.705848,-1.257706 1.646958,-2.275437 -0.0162,-0.905091 -0.628988,-1.762633 -1.480498,-2.070263 -0.84149,-0.331086 -1.86603,-0.09455 -2.47675,0.571958 -0.629817,0.650534 -0.803771,1.688243 -0.422449,2.508955 0.312519,0.716775 1.016349,1.233397 1.789309,1.336374 0.11866,0.01288 0.23825,0.01952 0.35712,0.01663 z" />
+    </marker>
+    <radialGradient
+       xlink:href="#linearGradient3"
+       id="radialGradient4"
+       cx="95"
+       cy="95"
+       fx="95"
+       fy="95"
+       r="20"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-32.591763,-32.591763)">
+    <path
+       id="OuterLimit"
+       d="m 96.935547,45.417969 c -28.535329,0 -51.517578,22.982249 -51.517578,51.517578 v 9.941533 9.94152 9.94153 9.94153 9.94153 9.94153 9.94152 9.94153 9.94153 9.94153 9.94153 9.94153 9.94152 9.94153 9.94153 9.94153 9.94153 9.94152 9.94153 9.94153 9.94153 9.94153 9.94153 9.94152 9.94153 9.94153 9.94153 9.94153 9.94153 9.94152 9.94153 9.94153 c 0,28.53533 22.982249,51.51758 51.517578,51.51758 h 9.941533 9.94152 9.94153 9.94153 9.94153 9.94153 9.94152 9.94153 9.94153 9.94153 9.94153 9.94153 9.94152 9.94153 9.94153 9.94153 9.94153 9.94152 9.94153 9.94153 9.94153 9.94153 9.94153 9.94152 9.94153 9.94153 9.94153 9.94153 9.94153 9.94152 9.94153 9.94153 c 28.53533,0 51.51758,-22.98225 51.51758,-51.51758 v -9.94153 -9.94153 -9.94152 -9.94153 -9.94153 -9.94153 -9.94153 -9.94153 -9.94152 -9.94153 -9.94153 -9.94153 -9.94153 -9.94153 -9.94152 V 256 v -9.94153 -9.94153 -9.94153 -9.94152 -9.94153 -9.94153 -9.94153 -9.94153 -9.94153 -9.94152 -9.94153 -9.94153 -9.94153 -9.94153 -9.94152 -9.941533 c 0,-28.535329 -22.98225,-51.517578 -51.51758,-51.517578 h -9.94153 -9.94153 -9.94152 -9.94153 -9.94153 -9.94153 -9.94153 -9.94153 -9.94152 -9.94153 -9.94153 -9.94153 -9.94153 -9.94153 -9.94152 H 256 h -9.94153 -9.94153 -9.94153 -9.94152 -9.94153 -9.94153 -9.94153 -9.94153 -9.94153 -9.94152 -9.94153 -9.94153 -9.94153 -9.94153 -9.94152 z"
+       style="fill:#666666;stroke-width:0.755906;stroke-dasharray:none;marker-mid:url(#marker61);paint-order:markers stroke fill;image-rendering:auto" />
+    <path
+       style="fill:#00ffff;stroke-width:1.002;stroke-dasharray:none;image-rendering:auto"
+       id="backgroundbevel"
+       width="400"
+       height="400"
+       x="56"
+       y="56"
+       ry="40.934814"
+       rx="0"
+       d="m 96.935547,51.085937 c -25.397389,0 -45.849609,20.452221 -45.84961,45.84961 V 415.06445 c 0,25.39739 20.452221,45.84961 45.84961,45.84961 H 415.06445 c 25.39739,0 45.84961,-20.45222 45.84961,-45.84961 V 96.935547 c 0,-25.397389 -20.45222,-45.84961 -45.84961,-45.84961 z" />
+    <path
+       style="fill:#666666;stroke-width:1.002;stroke-dasharray:none;image-rendering:auto"
+       id="BackGround_Rect"
+       width="400"
+       height="400"
+       x="56"
+       y="56"
+       ry="40.934814"
+       rx="0"
+       d="M 96.934814,56 H 415.06519 C 437.74307,56 456,74.256927 456,96.934814 V 415.06519 C 456,437.74307 437.74307,456 415.06519,456 H 96.934814 C 74.256927,456 56,437.74307 56,415.06519 V 96.934814 C 56,74.256927 74.256927,56 96.934814,56 Z" />
+    <circle
+       style="fill:url(#radialGradient4);fill-opacity:1;stroke-width:1.002;stroke-dasharray:none"
+       id="Divit"
+       cx="95"
+       cy="95"
+       r="20" />
+    <g
+       id="g61"
+       transform="translate(6.2343682,5.4711168)">
+      <text
+         xml:space="preserve"
+         id="text13"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.3333px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect13);shape-padding:7.55719;display:inline;fill:#cccccc;fill-opacity:1;stroke-width:1.002;stroke-dasharray:none"
+         transform="translate(-37.709634,-9.5456842)"><tspan
+           x="159.2423"
+           y="169.06052"
+           id="tspan1">Conor Duston</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text14"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;white-space:pre;shape-inside:url(#rect15);shape-padding:4.40836;display:inline;fill:#cccccc;fill-opacity:1;stroke-width:1.002;stroke-dasharray:none"
+         transform="translate(7.1142578,63.507206)"
+         x="-110.99121"
+         y="0"><tspan
+           x="134.14062"
+           y="143.49805"
+           id="tspan2">Interests:
+</tspan><tspan
+           x="134.14062"
+           y="158.49805"
+           id="tspan3">Embedded Systems
+</tspan><tspan
+           x="134.14062"
+           y="173.49805"
+           id="tspan4">Cloud Functionality
+</tspan><tspan
+           x="134.14062"
+           y="188.49805"
+           id="tspan5">Backed Development
+</tspan><tspan
+           x="134.14062"
+           y="203.49805"
+           id="tspan6">Desktop Application Development
+</tspan><tspan
+           x="134.14062"
+           y="218.49805"
+           id="tspan7">Game Development
+</tspan><tspan
+           x="134.14062"
+           y="233.49805"
+           id="tspan8">Open Source</tspan></text>
+    </g>
+  </g>
+</svg>
