@@ -13,6 +13,17 @@
   <defs
      id="defs1">
     <linearGradient
+       id="linearGradient1">
+      <stop
+         style="stop-color:#4d4d4d;stop-opacity:1;"
+         offset="0.90043765"
+         id="stop1" />
+      <stop
+         style="stop-color:#4d4d4d;stop-opacity:0.54000002;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
        id="linearGradient3">
       <stop
          style="stop-color:#4d4d4d;stop-opacity:1;"
@@ -26,14 +37,14 @@
     <rect
        x="129.73186"
        y="128.47232"
-       width="328.73801"
-       height="60.457573"
+       width="277.72693"
+       height="96.354256"
        id="rect13" />
     <rect
        x="129.73186"
        y="128.47232"
-       width="244.02518"
-       height="122.77504"
+       width="283.70044"
+       height="103.88205"
        id="rect15" />
     <marker
        markerWidth="8.7074909"
@@ -57,6 +68,15 @@
        fx="95"
        fy="95"
        r="20"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       xlink:href="#linearGradient1"
+       id="radialGradient2"
+       cx="422"
+       cy="422"
+       fx="422"
+       fy="422"
+       r="10"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <g
@@ -92,51 +112,55 @@
        cx="95"
        cy="95"
        r="20" />
+    <circle
+       style="fill:url(#radialGradient2);fill-opacity:1;stroke-width:0.518691;paint-order:markers stroke fill"
+       id="Divit2"
+       cx="422"
+       cy="422"
+       r="10" />
     <g
        id="g61"
-       transform="translate(6.2343682,5.4711168)">
+       transform="translate(6.8641345,17.436677)">
       <text
          xml:space="preserve"
          id="text13"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.3333px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect13);shape-padding:7.55719;display:inline;fill:#cccccc;fill-opacity:1;stroke-width:1.002;stroke-dasharray:none"
-         transform="translate(-37.709634,-9.5456842)"><tspan
-           x="159.2423"
-           y="169.06052"
-           id="tspan1">Conor Duston</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.3333px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;white-space:pre;shape-inside:url(#rect13);shape-padding:1.8893;display:inline;fill:#cccccc;fill-opacity:1;stroke-width:1.002;stroke-dasharray:none"
+         transform="translate(-17.080164,4.507989)"
+         x="-132.45302"
+         y="0"><tspan
+           x="131.62109"
+           y="163.39255"
+           id="tspan1">43646E6472- </tspan><tspan
+           x="131.62109"
+           y="210.05918"
+           id="tspan2">68757374646E</tspan></text>
       <text
          xml:space="preserve"
          id="text14"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;white-space:pre;shape-inside:url(#rect15);shape-padding:4.40836;display:inline;fill:#cccccc;fill-opacity:1;stroke-width:1.002;stroke-dasharray:none"
-         transform="translate(7.1142578,63.507206)"
-         x="-110.99121"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;direction:ltr;white-space:pre;shape-inside:url(#rect15);shape-padding:4.40836;display:inline;fill:#cccccc;fill-opacity:1;stroke-width:1.002;stroke-dasharray:none"
+         transform="translate(-17.624531,117.97153)"
+         x="-129.61816"
          y="0"><tspan
            x="134.14062"
-           y="143.49805"
-           id="tspan2">Interests:
+           y="145.85745"
+           id="tspan3">SCL 1021550400-1588467600
 </tspan><tspan
            x="134.14062"
-           y="158.49805"
-           id="tspan3">Embedded Systems
+           y="164.19083"
+           id="tspan4">
 </tspan><tspan
            x="134.14062"
-           y="173.49805"
-           id="tspan4">Cloud Functionality
+           y="182.5242"
+           id="tspan10">UMLBSECE 1599656252-1703601741 
 </tspan><tspan
            x="134.14062"
-           y="188.49805"
-           id="tspan5">Backed Development
+           y="200.85757"
+           id="tspan11">
 </tspan><tspan
            x="134.14062"
-           y="203.49805"
-           id="tspan6">Desktop Application Development
-</tspan><tspan
-           x="134.14062"
-           y="218.49805"
-           id="tspan7">Game Development
-</tspan><tspan
-           x="134.14062"
-           y="233.49805"
-           id="tspan8">Open Source</tspan></text>
+           y="219.19095"
+           id="tspan12">TER 1673274613-1673255723
+</tspan></text>
     </g>
   </g>
 </svg>

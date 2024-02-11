@@ -54,7 +54,7 @@ ul.default {
 }
 
 .intro {
-    margin: 4em 0em;
+    margin: 20px 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -67,11 +67,8 @@ ul.default {
 .intro .text {
     align-self: flex-start;
     text-align: left;
-    
-    padding-left: 4em;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    padding-right: 4em;
+    margin-top: 30px; 
+    margin-left: 80px;
     min-width: min-content;
 }
 
@@ -87,10 +84,11 @@ ul.default {
 }
 
 .intro .image img {
-    max-width: 412px;
+    max-width: 390px;
     max-height: fit-content;
-    padding: 20px;
+    padding: 10px;
     width: fit-content;
+    margin-bottom: var(--main-margin);
 }
 
 
