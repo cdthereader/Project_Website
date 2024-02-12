@@ -53,6 +53,17 @@ ul.default {
     overflow-x: auto;
 }
 
+ul.default li {
+    margin: .5em;
+    padding-left: .5em;
+}
+
+ul.needs-border {
+    border-style: ridge;
+    border-width: 0px;
+    border-bottom-width: 4px;
+}
+
 .intro {
     margin: 20px 0px;
     display: flex;
