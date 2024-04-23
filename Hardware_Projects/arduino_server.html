@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="../home_style.css">
+        <title>
+            Project: Arduino Server
+        </title>
+    </head>
+
+    <div class="sidenav">
+        <div class="group">
+            <h1>Home</h1>
+            <a href="../index.html">Home Page</a>
+        </div>
+        <div class="group">
+            <h1>Page links</h1>
+            <a href="#purpose">Purpose</a>
+            <a href="#plans">Planned Features</a>
+            <a href="#progress">Progress</a>
+            <a href="#lessons">Learned Lessons</a>
+            <a href="#contacts">Contacts</a>
+            <a href="#git-repo">Project Repo</a>
+            <a href="#">Top</a>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="intro">
+            <div class="text">
+                <h1 class="h">Arduino File Server</h1>
+                <p>An Low power simple server for storing and retrieveing data over ethernet</p>
+            </div>
+            <div class="image">
+                <img src="../images/ArduinoEthernetHat.jpg">
+            </div>
+        </div>
+        <br>
+        <hr>
+        <h2 id="purpose">Purpose:</h2>
+        <p class="indent info">
+            Create a file storage sever using Arduino Mega with enough functionality to add, remove, and see files on the server<br>
+            Addationaly, add user support for exclusive adding and removing files
+        </p>
+        <br>
+        <hr>
+        <h2 id="plans">Planned updates to server: </h2>
+        <ul class="default info">
+            <li>Make server able process requests to store and delete files</li>
+            <li>Add some sort of authorization and users to only let certian users edit and upload certian files</li>
+            <li>Add some API functionality to web page to get files on Arudino and display them</li>
+            <li>Create scripts to test the Arduino server's functionality</li>
+            <ul>
+                <li>GET returns applicable files</li>
+                <li>POST puts file on device that can be gotten</li>
+                <li>DELETE removes specified file or files</li>
+                <li>Arduino can handle recieving files in segments</li>
+                <li>Users cannot access each others data, only their own</li>
+            </ul>
+            
+        </ul>
+        <br>
+        <hr>
+        <h2 id="progress">Progress:</h2>
+        <ul class="default info">
+            <li>Set up Arudino with ethernet hat to create working prototype</li>
+            <li>Added ability for any client to request files from server using GET</li>
+        </ul>
+        <br>
+        <hr>
+        <h2 id="lessons">Lessons Learnt:</h2>
+        <ul class="default info">
+            <li>HTTP 1.1 protocol standards and how to implement them</li>
+            <li>Memory managment in with low memory availability</li>
+            <li>Arduino memory structure, using Flash memory to store vairables that are not written</li>
+            <li>Using SPI devices like the ethernet hat and flash storage on said hat with arduino</li>
+        </ul>
+        <br>
+        <hr>
+        <h2 id="contacts">Contacts:</h2>
+            <ul class="default info">
+                <li><a href="mailto:conor.duston+websight@gmail.com">Conor.Duston@gmail.com</a></li>
+                <br>
+            </ul>
+        <hr>
+        <h2 id="git-repo">Project Repo:</h2>
+            <a href="https://github.com/Conor-Duston/Arduino_Server" class="indent info">Arduino Server</p>
+    </div>
+
+</html>
