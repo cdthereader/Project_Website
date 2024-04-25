@@ -31,7 +31,7 @@
         <div class="intro">
             <div class="text">
                 <h1 class="h">Arduino File Server</h1>
-                <p>A low power simple server for storing and retrieveing data on a local network</p>
+                <p>A low power simple server for storing and retrieving data on a local network</p>
             </div>
             <div class="image">
                 <img src="../images/ArduinoEthernetHat.jpg">
@@ -41,23 +41,23 @@
         <hr>
         <h2 id="purpose">Purpose:</h2>
         <p class="indent info">
-            Create a file storage sever using Arduino Mega with enough functionality to add, remove, and see files on the server<br>
-            Addationaly, add user support for exclusive adding and removing files
+            Create a file storage sever using Arduino Mega with enough functionality to add, remove, and see files on the server.<br>
+            Add user groups for read and write management when seeing, adding, and removing files.
         </p>
         <br>
         <hr>
         <h2 id="plans">Planned updates to server: </h2>
         <ul class="default info">
             <li>Make server able process requests to store and delete files</li>
-            <li>Add some sort of authorization and users to only let certian users edit and upload certian files</li>
+            <li>Add some sort of authorization and users to only let certain users edit and upload certain files</li>
             <li>Add some API functionality to web page to get files on Arudino and display them</li>
             <li>Create scripts to test the Arduino server's functionality</li>
             <ul>
                 <li>GET returns applicable files</li>
                 <li>POST puts file on device that can be gotten</li>
                 <li>DELETE removes specified file or files</li>
-                <li>Arduino can handle recieving files in segments</li>
-                <li>Users cannot access each others data, only their own</li>
+                <li>Arduino can handle receiving files in segments</li>
+                <li>Users cannot access each other's data, only their own</li>
             </ul>
             
         </ul>
@@ -65,7 +65,7 @@
         <hr>
         <h2 id="progress">Progress:</h2>
         <ul class="default info">
-            <li>Set up Arudino with ethernet hat to create working prototype</li>
+            <li>Set up Arduino with ethernet hat to create working prototype</li>
             <li>Added ability for any client to request files from server using GET</li>
         </ul>
         <br>
@@ -73,9 +73,9 @@
         <h2 id="lessons">Lessons Learnt:</h2>
         <ul class="default info">
             <li>HTTP 1.1 protocol standards and how to implement them</li>
-            <li>Memory managment in with low memory availability</li>
-            <li>Arduino memory structure, using Flash memory to store vairables that are not written</li>
-            <li>Using SPI devices like the ethernet hat and flash storage on said hat with arduino</li>
+            <li>Memory management with low memory availability</li>
+            <li>Arduino memory structure, using Flash memory to store constant variables</li>
+            <li>Using SPI devices like the ethernet hat and flash storage on said hat with Arduino</li>
         </ul>
         <br>
         <hr>
