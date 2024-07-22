@@ -49,12 +49,15 @@
         <h2 id="plans">Planned updates to server: </h2>
         <ul class="default info">
             <li>Make server able process requests to store and delete files</li>
+            <li>Add ability for server to distinguish between MIME types to allow browsers to identify content correctly</li>
+            <li>Create webpage(s) for user interaction with the server</li>
             <li>Add some sort of authorization and users to only let certain users edit and upload certain files</li>
             <li>Add some API functionality to web page to get files on Arduino and display them</li>
             <li>Create scripts to test the Arduino server's functionality</li>
             <ul>
-                <li>GET returns applicable files</li>
-                <li>POST puts file on device that can be gotten</li>
+                <li>GET returns applicable files - Complete</li>
+                <li>MIME types for files are determined and sent correctly - In progress</li>
+                <li>POST puts file on device that can be gotten - in progress</li>
                 <li>DELETE removes specified file or files</li>
                 <li>Arduino can handle receiving files in segments</li>
                 <li>Users cannot access each other's data, only their own</li>
